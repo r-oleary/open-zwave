@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Product xmlns='https://github.com/OpenZWave/open-zwave' Revision="2">
+        <!-- Configuration Parameters -->
+        <CommandClass id="102">
+                <Value type="bool" index="0" genre="config" label="Open" size="1" value="False">
+                        <Help>Whether the garage door is open or closed.</Help>
+                        <Item label="Closee" value="0" />
+                        <Item label="Opene" value="1" />
+                </Value>
+  </CommandClass>
+</Product>
